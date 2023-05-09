@@ -7,6 +7,7 @@
     <ServiceBlock />
     <AnswersBlock />
   </main>
+  <TheFooter />
   <TheNav />
 </template>
 <script setup>
@@ -17,4 +18,5 @@ import ThePricesBlock from '@/components/ThePricesBlock.vue'
 import CalculateBlock from '@/components/CalculateBlock.vue'
 import ServiceBlock from '@/components/ServiceBlock.vue'
 import AnswersBlock from '@/components/AnswersBlock.vue'
+import TheFooter from '@/components/TheFooter.vue'
 </script>

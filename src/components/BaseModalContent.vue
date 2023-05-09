@@ -66,8 +66,8 @@
   </div>
 </template>
 <script setup>
-import emailJs from '@emailjs/browser'
 import { ref } from 'vue'
+import emailJs from '@emailjs/browser'
 
 const form = ref(null)
 const inputFieldReset = ref(null)
@@ -79,8 +79,6 @@ const sendEmail = () => {
       if (response.status === 200) {
         isLoading.value = true
       }
-      // onmessage('Ваша заявка отпралено!')
-      console.log('SUCCESS!', response.status, response.text)
       inputFieldReset.value = ' '
     })
 }
